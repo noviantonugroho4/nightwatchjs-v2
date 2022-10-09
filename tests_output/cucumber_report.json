@@ -1,0 +1,215 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "google-search;searching-the-rijksmuseum",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Searching the Rijksmuseum",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 968907459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I open the Rijksmuseum page",
+            "match": {
+              "location": "tests/features/nightwatch/step_definitions/nightwatch.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4239784749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "I dismiss the cookie dialog",
+            "match": {
+              "location": "tests/features/nightwatch/step_definitions/nightwatch.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57225208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the title is \"Rijksmuseum Amsterdam, home of the Dutch masters\"",
+            "match": {
+              "location": "tests/features/nightwatch/step_definitions/nightwatch.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9476666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I search \"night watch\"",
+            "match": {
+              "location": "tests/features/nightwatch/step_definitions/nightwatch.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2932411707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Body contains \"Operation Night Watch\"",
+            "match": {
+              "location": "tests/features/nightwatch/step_definitions/nightwatch.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1627880415
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57020583
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@a",
+            "line": 7
+          },
+          {
+            "name": "@b",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "google-search;searching-the-rijksmuseum-1",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Searching the Rijksmuseum-1",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 825719707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I open the Rijksmuseum page",
+            "match": {
+              "location": "tests/features/nightwatch/step_definitions/nightwatch.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4248127084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 4,
+            "name": "I dismiss the cookie dialog",
+            "match": {
+              "location": "tests/features/nightwatch/step_definitions/nightwatch.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50596874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the title is \"Rijksmuseum Amsterdam, home of the Dutch masters\"",
+            "match": {
+              "location": "tests/features/nightwatch/step_definitions/nightwatch.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7625167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "I search \"night watch\"",
+            "match": {
+              "location": "tests/features/nightwatch/step_definitions/nightwatch.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3093641792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Body contains \"The Night Watch, Rembrandt van Rijn, 1642\"",
+            "match": {
+              "location": "tests/features/nightwatch/step_definitions/nightwatch.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2195994833
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55748167
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@a",
+            "line": 12
+          },
+          {
+            "name": "@b",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "google-search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Google Search",
+    "tags": [],
+    "uri": "tests/features/nightwatch/nightwatch.feature"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "name": "nightwatchjs-v2",
+  "version": "1.0.0",
+  "description": "boilerplate nightwatchjs-v2 + @cucumber/cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noviantonugroho4/nightwatchjs-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noviantonugroho4/nightwatchjs-v2/issues"
+  },
+  "homepage": "https://github.com/noviantonugroho4/nightwatchjs-v2#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.6.0",
+    "chromedriver": "^106.0.1",
+    "nightwatch": "^2.3.9"
+  },
+  "dependencies": {
+    "@cucumber/pretty-formatter": "^1.0.0"
+  }
+}
